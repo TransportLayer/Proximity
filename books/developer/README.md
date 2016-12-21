@@ -8,14 +8,14 @@ are described below.
  * Between ALL checkmarks:
 `                        <secText> </secText>`
 
-## Page 4:
+## Page 4
  * Before title:
 `                        <secText>        </secText>`
 
  * Between ALL checkmarks:
 `                        <secText> </secText>`
 
-## Page 5:
+## Page 5
  * Before title:
 `                        <secText>        </secText>`
 
