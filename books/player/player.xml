@@ -1,0 +1,824 @@
+<mode>
+    <commandType>ReplaceItemEntity</commandType>
+    <targetSelector>
+        <target>nearest</target>
+        <areaType>radius</areaType>
+        <m>-1</m>
+    </targetSelector>
+    <slotType>slot.hotbar.</slotType>
+    <slotNumberSelector>0</slotNumberSelector>
+    <Item>
+        <id>written_book</id>
+        <Count>1</Count>
+        <WrittenBook>
+            <bookTitle>Proximity</bookTitle>
+            <author>TransportLayer</author>
+            <generation>0</generation>
+            <Pages>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Proximity</secText>
+                        <textCol>dark_gray</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Proximity\nCreated by Zedaph\nRemade for 1.11 by TransportLayer</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n        by Zedaph</secText>
+                        <textCol>gray</textCol>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to go to Zedaph&apos;s YouTube channel</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/ZedaphPlays</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Join Team</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click a colour to join a team,\nor click here to leave.</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/trigger PXY_joinTeam set -1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n         【</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>█</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Join Team Red</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/trigger PXY_joinTeam set 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>█</secText>
+                        <textCol>blue</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Join Team Blue</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/trigger PXY_joinTeam set 2</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>█</secText>
+                        <textCol>dark_purple</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Join Spectators</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/trigger PXY_joinTeam set 3</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>】</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n          </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Ready?</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n          【</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Ready!\nClick here to confirm you are ready to play.</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/trigger PXY_isReady set 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Not Ready!\nClick here if you are no longer ready.\nYou may only use this once!</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/trigger PXY_isReady set 2</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>】</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n      » Overview «</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to learn how to play</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>2</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n        » Rules «</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to view the rules</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>4</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n       » Credits «</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to view the credits</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>6</clickEvent>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Overview</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Watch the Video</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to watch the video!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/watch?v=Nyuz-trDoz8</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n       Nine islands.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n        Two teams.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n         One twist...</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n Everyone&apos;s </secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>invisible</secText>
+                        <textCol>dark_gray</textCol>
+                        <bold>1</bold>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    ...that is, until two</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n members of opposing</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   teams meet on the</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n       same island...</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Overview</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n        Then: </secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>BAM!</secText>
+                        <textCol>dark_gray</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    Everyone on that</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n island becomes visible</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n      for all to see!</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n         The Goal:</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    Reduce the other</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   team&apos;s </secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Team Lives</secText>
+                        <textCol>dark_gray</textCol>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Team Lives are the number of shared lives\neach team has. One player dying\nreduces that team&apos;s Team Lives\nby one. The death of any one team\nmember affects the rest of the team!</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n       down to zero</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n     before they do</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    the same to you!</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Overview</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n           </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Rules</secText>
+                        <textCol>dark_gray</textCol>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n • No griefing or</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   blocking the enemy</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   team&apos;s spawn pad.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n • No going to</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   the Nether.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n • Don&apos;t build too far</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   away from the game</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   area or too high</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   up or low down.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Overview</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n For more information,</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n     please see the</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>forum post</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to view the forum post!\nNote: This forum post is for the original\n1.7.2 version of Proximity by Zedaph.</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>http://www.minecraftforum.net/forums/mapping-and-modding/maps/1553298-proximity-v1-1-1-7-2</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> or</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    watch the </secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>video</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to watch the video!\nNote: This video is for the original\n1.7.2 version of Proximity by Zedaph.</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/watch?v=Nyuz-trDoz8</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>.</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>         </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Credits</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n Map made by </secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Zedaph</secText>
+                        <textCol>dark_gray</textCol>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n  </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>YouTube</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to Zedaph&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/ZedaphPlays</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Twitter</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to Zedaph&apos;s Twitter page!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://twitter.com/ZedaphPlays</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n     Many thanks to:</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n • TangoTek</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to TangoTek&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/TangoTekLP</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • Graphoniac</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to Graphoniac&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/Graphoniac</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • impulseSV</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to impulseSV&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/impulseSV</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • Sogfin</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to Sogfin&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/Sogfin</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • xisumavoid</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to xisumavoid&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/xisumavoid</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • SparkZ Bolt</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to SparkZ Bolt&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/channel/UCzvLgT1GuTzn6lhFE72FGFw</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • SpacemanRhino</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to SpacemanRhino&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/user/SpacemanRhino</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n • Jugornot_</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>YouTube and Twitter accounts no longer exist :(</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>         </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Credits</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n    Map recreated</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n      for 1.11 by </secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   </secText>
+                        <textCol>dark_gray</textCol>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>TransportLayer</secText>
+                        <textCol>dark_gray</textCol>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n  </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Twitter</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to TransportLayer&apos;s Twitter page!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://twitter.com/TransportLayerO</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>YouTube</secText>
+                        <textCol>dark_blue</textCol>
+                        <bold>1</bold>
+                        <underlined>1</underlined>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click here to go to TransportLayer&apos;s YouTube channel!</hoverEvent>
+                        <clickEventAction>open_url</clickEventAction>
+                        <clickEvent>https://www.youtube.com/channel/UCX3cG57OiHBDj_U8WBTyxtA</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n  Please direct any</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\nbug reports or issues</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n  with this map to him,</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n      not Zedaph!</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+            </Pages>
+        </WrittenBook>
+    </Item>
+</mode>
