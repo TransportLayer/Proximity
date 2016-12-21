@@ -1,0 +1,672 @@
+<mode>
+    <commandType>ReplaceItemEntity</commandType>
+    <targetSelector>
+        <target>nearest</target>
+        <areaType>radius</areaType>
+        <m>-1</m>
+    </targetSelector>
+    <slotType>slot.hotbar.</slotType>
+    <slotNumberSelector>8</slotNumberSelector>
+    <Item>
+        <id>written_book</id>
+        <Count>1</Count>
+        <WrittenBook>
+            <bookTitle>Developer Book</bookTitle>
+            <author>TransportLayer</author>
+            <generation>0</generation>
+            <Pages>
+                <Page>
+                    <Section>
+                        <secText>      Proximity</secText>
+                        <textCol>dark_gray</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n   Developer Edition</secText>
+                        <textCol>gray</textCol>
+                        <italic>1</italic>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n » Teleports</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to go to Page 2</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>2</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Armour Stands</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to go to Page 3</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>3</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Tags</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to go to Page 4</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>4</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Scores</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to go to Page 5</hoverEvent>
+                        <clickEventAction>change_page</clickEventAction>
+                        <clickEvent>5</clickEvent>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>     Teleports</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n » World Spawn</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>(1032, 192, 1032)</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/tp @p 1032.0 192 1032.0 ~ ~</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Command Floor</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>(984, 96, 984)</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/tp @p 984.0 96 984.0 -45 0</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Lobby</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>(-82.5, 86, 0.5)</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/tp @p -82.5 86 0.5 ~ ~</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Red Team Spawn</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>(0.5, 39, -55.5)</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/tp @p 0.5 39 -55.5 0 0</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n » Blue Team Spawn</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>(0.5, 39, 56.5)</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/tp @p 0.5 39 56.5 -180 0</clickEvent>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>   Armour Stands</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {Marker:1b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {Marker:0b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Marker</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Make the Armour Stand un-interactable.\nTag: Marker\nOptions: 0b 1b</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {Invisible:1b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {Invisible:0b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Invisible</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Make the Armour Stand invisible.\nTag: Invisible\nOptions: 0b 1b</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {NoGravity:1b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {NoGravity:0b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> No Gravity</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Make the Armour Stand unaffected by gravity.\nTag: NoGravity\nOptions: 0b 1b</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {Invulnerable:1b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {Invulnerable:0b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Invulnerable</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Make the Armour Stand unable to be damaged.\nThis is unnecessary if the Armor Stand is a Marker.\nTag: Invulnerable\nOptions: 0b 1b</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {CustomNameVisible:1b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/entitydata @e[type=ArmorStand,c=1,r=3] {CustomNameVisible:0b}</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Show Name</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Show the Armour Stand&apos;s name.\nTag: CustomNameVisible\nOptions: 0b 1b</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Tags</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to show your tags</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p list</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p add PXY_inLobby</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p remove PXY_inLobby</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> inLobby</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Tracks if a player is in the lobby.\nTag: PXY_inLobby</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p add PXY_inGame</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p remove PXY_inGame</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> inGame</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Tracks if a player is in the game.\nTag: PXY_inGame</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p add PXY_ready</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p remove PXY_ready</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> ready</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Tracks if a player has clicked the ready button.\nTag: PXY_ready</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✔</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p add PXY_unreadied</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>✘</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Remove tag</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players tag @p remove PXY_unreadied</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> unreadied</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Tracks if a player has clicked the unready button.\nTag: PXY_unreadied</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                </Page>
+                <Page>
+                    <Section>
+                        <secText>        </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>Scores</secText>
+                        <textCol>black</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Click to hide the sidebar</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard objectives setdisplay sidebar</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>+</secText>
+                        <textCol>dark_green</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add 1 to the score</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players add Red PXY_teamLives 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>-</secText>
+                        <textCol>dark_red</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Subtract 1 from the score</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players remove Red PXY_teamLives 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Red Team Lives</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>The number of shared lives the Red team has.\nClick to show the sidebar\nObjective: PXY_teamLives\nPlayer: Red</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard objectives setdisplay sidebar PXY_teamLives</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>+</secText>
+                        <textCol>dark_green</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add 1 to the score</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players add Blue PXY_teamLives 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>-</secText>
+                        <textCol>dark_red</textCol>
+                        <bold>1</bold>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Subtract 1 from the score</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players remove Blue PXY_teamLives 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Blue Team Lives</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>The number of shared lives the Blue team has.\nClick to show the sidebar\nObjective: PXY_teamLives\nPlayer: Blue</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard objectives setdisplay sidebar PXY_teamLives</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>1</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Set the score to 1</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players set PXY_resetMap PXY_global 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>0</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Set the score to 0</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players set PXY_resetMap PXY_global 0</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>+10</secText>
+                        <textCol>gold</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Add 10 to the score.\nThis is used to unpause.</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players add PXY_resetMap PXY_global 10</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>-10</secText>
+                        <textCol>gold</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Subtract 10 from the score.\nThis is used to pause.</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players remove PXY_resetMap PXY_global 10</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Reset Map</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Scoreboard used to control map resettting.\nClick to show the sidebar\nObjective: PXY_global\nPlayer: PXY_resetMap</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard objectives setdisplay sidebar PXY_global</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText>\n</secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>1</secText>
+                        <textCol>dark_green</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Set the score to 1</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players set PXY_runGame PXY_global 1</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> </secText>
+                        <textCol>black</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <clickEventAction>run_command</clickEventAction>
+                    </Section>
+                    <Section>
+                        <secText>0</secText>
+                        <textCol>dark_red</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Set the score to 0</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard players set PXY_runGame PXY_global 0</clickEvent>
+                    </Section>
+                    <Section>
+                        <secText> Run Game</secText>
+                        <textCol>dark_gray</textCol>
+                        <hoverEventAction>show_text</hoverEventAction>
+                        <hoverEvent>Scoreboard used to control game state.\nClick to show the sidebar\nObjective: PXY_global\nPlayer: PXY_runGame</hoverEvent>
+                        <clickEventAction>run_command</clickEventAction>
+                        <clickEvent>/scoreboard objectives setdisplay sidebar PXY_global</clickEvent>
+                    </Section>
+                </Page>
+            </Pages>
+        </WrittenBook>
+        <Lore>Book for developing Proximity</Lore>
+    </Item>
+</mode>
