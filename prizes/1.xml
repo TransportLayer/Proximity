@@ -1,0 +1,15 @@
+<mode>
+    <commandType>Summon</commandType>
+    <xpos></xpos>
+    <ypos></ypos>
+    <zpos></zpos>
+    <relative>1</relative>
+    <entity>
+        <entityType>Item</entityType>
+        <Item>
+            <id>golden_apple</id>
+            <Count>1</Count>
+            <NamedItem>Zedapple</NamedItem>
+        </Item>
+    </entity>
+</mode>

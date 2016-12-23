@@ -1,0 +1,16 @@
+<mode>
+    <commandType>Summon</commandType>
+    <xpos></xpos>
+    <ypos></ypos>
+    <zpos></zpos>
+    <relative>1</relative>
+    <entity>
+        <entityType>Item</entityType>
+        <Item>
+            <id>splash_potion</id>
+            <Count>1</Count>
+            <PotionChoice>strength</PotionChoice>
+            <NamedItem>Mighty Muscles</NamedItem>
+        </Item>
+    </entity>
+</mode>

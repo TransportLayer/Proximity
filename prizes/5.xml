@@ -1,0 +1,15 @@
+<mode>
+    <commandType>Summon</commandType>
+    <xpos></xpos>
+    <ypos></ypos>
+    <zpos></zpos>
+    <relative>1</relative>
+    <entity>
+        <entityType>Item</entityType>
+        <Item>
+            <id>arrow</id>
+            <Count>1</Count>
+            <NamedItem>Super Awesome Cool Prize Arrow</NamedItem>
+        </Item>
+    </entity>
+</mode>

@@ -1,0 +1,15 @@
+<mode>
+    <commandType>Summon</commandType>
+    <xpos></xpos>
+    <ypos></ypos>
+    <zpos></zpos>
+    <relative>1</relative>
+    <entity>
+        <entityType>Item</entityType>
+        <Item>
+            <id>ender_pearl</id>
+            <Count>1</Count>
+            <NamedItem>Me-Go-Over-There Ball</NamedItem>
+        </Item>
+    </entity>
+</mode>

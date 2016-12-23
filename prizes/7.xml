@@ -1,0 +1,23 @@
+<mode>
+    <commandType>Summon</commandType>
+    <modeEnchantAll>1</modeEnchantAll>
+    <xpos></xpos>
+    <ypos></ypos>
+    <zpos></zpos>
+    <relative>1</relative>
+    <entity>
+        <entityType>Item</entityType>
+        <Item>
+            <id>flint</id>
+            <Count>1</Count>
+            <Enchantments>
+                <enchant>
+                    <eid>35</eid>
+                    <lvl>2</lvl>
+                </enchant>
+            </Enchantments>
+            <NamedItem>Flint Harvester</NamedItem>
+            <Lore>Flint drop rates from 10% to 25%</Lore>
+        </Item>
+    </entity>
+</mode>
